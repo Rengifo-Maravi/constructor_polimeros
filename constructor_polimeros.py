@@ -1,10 +1,11 @@
+import streamlit as st
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from pysoftk.linear_polymer.linear_polymer import Lp
 from pysoftk.topologies.ranpol import Rnp
 from pysoftk.topologies.diblock import Db
 from pysoftk.format_printers.format_mol import Fmt
-import streamlit as st
+
 
 # Función para obtener la molécula desde un SMILES
 def obtener_molecula(smiles):
